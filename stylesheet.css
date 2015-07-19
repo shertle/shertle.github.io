@@ -1,6 +1,8 @@
 body {
-    background-color: #000000;
-
+    display: table;
+    background: url('img/photo4.jpg') no-repeat fixed;
+    background-size: 100% 100%;
+    width: 100%;
 }
 
 h1 {
@@ -10,6 +12,14 @@ h1 {
     letter-spacing: 1px;
     color: white;
     text-align: center;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
+    max-width: 1000px;
+    margin: 5% auto;
+
+}
+
+.header1 {
+    vertical-align: middle;
+    width: 100%;
 }
 
