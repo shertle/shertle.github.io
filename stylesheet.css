@@ -12,13 +12,14 @@ h1 {
     letter-spacing: 1px;
     color: white;
     text-align: center;
-    border: 2px solid #FFFFFF;
+    /*border: 2px solid #FFFFFF;*/
     max-width: 1000px;
     margin: 5% auto;
+    padding-bottom:1000px;
 
 }
 
-.header1 {
+.heading {
     vertical-align: middle;
     width: 100%;
 }
