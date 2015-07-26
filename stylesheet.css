@@ -16,23 +16,23 @@ h1 {
     text-align: center;
     /*border: 2px solid #FFFFFF;*/
     max-width: 1000px;
-    margin: 12% auto;
-    /*margin-bottom: 40%;*/
+    margin: 10% auto;
+}
 
+nav {
+    width: 100%;
 }
 
 .intro {
-    display: table;
+    display: table; 
     background: url('img/photo4.jpg') no-repeat fixed;
     background-size: cover;
-    height: 100%;
     width: 100%;
     min-height: 700px;
 }
 
 .summary {
     text-transform: uppercase;
-    /*background-color: #000000;*/
     text-align: center;
     font-weight: 100;
     font-size: 30px;
@@ -40,7 +40,6 @@ h1 {
 
 .contact {
     text-transform: uppercase;
-    /*background-size: #000000;*/
     text-align: center;
     font-weight: 100;
     font-size: 30px;
