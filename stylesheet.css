@@ -19,8 +19,28 @@ h1 {
     margin: 10% auto;
 }
 
+/*
 nav {
     width: 100%;
+}
+*/
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    display: block;
 }
 
 .intro {
