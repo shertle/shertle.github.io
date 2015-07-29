@@ -33,6 +33,7 @@ nav {
 }
 
 .nav li {
+    display: inline-block;
     font-size: 1.2em;
     line-height: 40px;
     height: 40px;
