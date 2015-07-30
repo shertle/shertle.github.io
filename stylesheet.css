@@ -14,7 +14,7 @@ h1 {
     font-size: 100px;
     letter-spacing: 1px;
     text-align: center;
-    /*border: 2px solid #FFFFFF;*/
+    /*border: 2px solid #ffffff;*/
     max-width: 1000px;
     margin: 10% auto;
 }
@@ -25,23 +25,41 @@ nav {
 }
 */
 
+.nav {
+    background-color: transparent;
+    /*border: 1px solid transparent; */
+}
+
 .nav ul {
     list-style: none;
-    text-align: center;
+    text-align: right;
     margin: 0;
-    padding: 0;
+    margin-right: 50px;
+
+
+
 }
 
 .nav li {
+    font-family: 'Raleway', sans-serif;
     display: inline-block;
-    font-size: 1.2em;
-    line-height: 40px;
-    height: 40px;
-    border-bottom: 1px solid #888;
+    font-size: 1.4em;
+    line-height: 50px;
+    height: 50px;
+    padding-left:20px;
+    padding-right: 20px;
+    /*border-bottom: 1px solid #888;*/
 }
 
 .nav a {
-    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    /*display: block;*/
+    /*transition: .3s background-color; */
+}
+
+.nav a:hover {
+    background-color: #005f5f;
 }
 
 .intro {
@@ -50,6 +68,7 @@ nav {
     background-size: cover;
     width: 100%;
     min-height: 700px;
+    margin-top: -50px;
 }
 
 .summary {
