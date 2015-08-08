@@ -20,7 +20,7 @@ h1 {
 
 .nav-bar {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.2);
+    /*background-color: rgba(255, 255, 255, 0.2);*/
     top: 0;
     left: 0;
     right: 0;
@@ -36,6 +36,7 @@ h1 {
 
 .navOpac{
     background-color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid #ffffff;
 }
 
 .menu-items li {
@@ -62,7 +63,7 @@ h1 {
 
 .intro {
     display: table; 
-    background: url('img/photo4.jpg') no-repeat fixed;
+    background: url('img/photo7.jpg') no-repeat fixed;
     background-size: cover;
     width: 100%;
     min-height: 700px;
@@ -74,6 +75,14 @@ h1 {
     text-align: center;
     font-weight: 100;
     font-size: 30px;
+}
+
+.summary p {
+    text-transform: none;
+    font-size: 20px;
+    margin: auto;
+    max-width: 768px;
+    text-align: left;
 }
 
 .contact {
