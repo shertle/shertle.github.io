@@ -77,12 +77,30 @@ h1 {
     font-size: 30px;
 }
 
-.summary p {
+.summary-left {
+    display: inline-block;
+    float: left;
+}
+
+.summary-right {
+    display: inline-block;
+    float: right;
+}
+
+.summary-left > p {
     text-transform: none;
     font-size: 20px;
-    margin: auto;
-    max-width: 768px;
-    text-align: left;
+    margin: auto auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#profile-pic {
+    display: inline-block;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .contact {
