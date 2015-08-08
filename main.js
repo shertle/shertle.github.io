@@ -1,22 +1,19 @@
 // Check that jQuery is working properly
-/*window.onload = function() {
+/*
+window.onload = function() {
     alert( "welcome" ); 
 };
 */
 
-    $("body").click(function() {
-        alert( "Handler for .click() called." );
-    });
 
 $(document).ready(function() {
+    //console.log("works woohoo!");
 
-    // Controls Fading of Menu Bar
-    $("section").scroll(function() {    
+    // Darken Nav Bar after scrolling down
+    $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
-        alert("scrolled");
-        console.log('scrolled');
 
-        if (scroll >= 5) {
+        if (scroll >= 50) {
             $("nav").addClass("navOpac");
         } 
         else {
@@ -25,7 +22,4 @@ $(document).ready(function() {
 
     });
 
-    $("body").click(function() {
-        alert( "Handler for .click() called." );
-    });
 });
