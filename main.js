@@ -15,9 +15,11 @@ $(document).ready(function() {
 
         if (scroll >= 50) {
             $("nav").addClass("navOpac");
+            $("ul").addClass("lightHiLight");
         } 
         else {
             $("nav").removeClass("navOpac");
+            $("ul").removeClass("lightHiLight");
         }
 
     });
