@@ -128,3 +128,31 @@ h1 {
     font-size: 30px;
 }
 
+.contact-img {
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info > a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:focus { 
+    text-decoration: none; 
+    color: black;
+
+}
+
+a:-webkit-any-link{
+    text-decoration:none;
+}
+
+
