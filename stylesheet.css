@@ -67,7 +67,7 @@ h1 {
 }
 
 .menu-items li:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 
