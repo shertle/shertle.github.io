@@ -1,3 +1,11 @@
+/*
+  Checking out my source?  
+  Why not just go here:
+  https://github.com/shertle
+
+  Your welcome.
+*/
+
 // Check that jQuery is working properly
 /*
 window.onload = function() {
