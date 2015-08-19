@@ -19,10 +19,9 @@ html, body {
 h1 {
     text-transform: uppercase;
     font-weight: 100;
-    font-size: 90px;
+    font-size: 5.5em;
     text-align: center;
     /*border: 2px solid #ffffff;*/
-    max-width: 1000px;
     margin: 10% auto;
 }
 
@@ -51,7 +50,7 @@ h1 {
 
 .menu-items li {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.3em;
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -76,7 +75,7 @@ h1 {
     background: url('img/photo4.jpg') no-repeat fixed;
     background-size: cover;
     width: 100%;
-    min-height: 700px;
+    height: 100%;
     /*margin-top: -50px;*/
 }
 
@@ -96,24 +95,22 @@ h1 {
 .summary-left {
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px;
-    height: 400px;
-    width: 400px;
+    height: 40%;
+    width: 35%;
 }
 
 .summary-right {
     display: inline-block;
-    margin-left: 10px;
-    height: 400px;
-    width: 400px;
+    height: 40%;
+    width: 35%;
 }
 
 .summary-left > p {
     text-transform: none;
     display: table-cell;
     vertical-align: middle;
-    font-size: 20px;
     margin: auto auto;
+    font-size: 1.25em;
     width: 400px;
     height: 400px;
 }
