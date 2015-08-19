@@ -126,7 +126,7 @@ h1 {
     background: url('img/photo14.jpg') no-repeat fixed;
     background-size: cover;
     width: 100%;
-    min-height: 650px;
+    height: 100%;
     text-align: center;
 }
 
