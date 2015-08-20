@@ -41,6 +41,14 @@ h1 {
     text-align: center;
 }
 
+ul {
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
 .navOpac {
     background-color: rgba(0, 0, 0, 1);
     border-bottom: 1px solid #ffffff;
@@ -66,7 +74,7 @@ h1 {
 }
 
 .menu-items li:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -84,6 +92,7 @@ h1 {
     text-align: center;
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 .summary > h2 {
