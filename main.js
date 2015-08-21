@@ -27,7 +27,5 @@ $(document).ready(function() {
         else {
             $("nav").removeClass("navOpac");
         }
-
     });
-
 });

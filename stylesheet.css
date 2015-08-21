@@ -16,18 +16,8 @@ html, body {
     color: white;
 }
 
-h1 {
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 5.5em;
-    text-align: center;
-    /*border: 2px solid #ffffff;*/
-    margin: 10% auto;
-}
-
 .nav-bar {
     position: fixed;
-    /*background-color: rgba(255, 255, 255, 0.2);*/
     top: 0;
     left: 0;
     right: 0;
@@ -39,14 +29,10 @@ h1 {
 
 .nav-bar ul {
     text-align: center;
-}
-
-ul {
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-  -webkit-padding-start: 0;
+    /* Override User Agent Stylesheet and align elements center */
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-padding-start: 0;
 }
 
 .navOpac {
@@ -54,18 +40,16 @@ ul {
     border-bottom: 1px solid #ffffff;
 }
 
-
-
+/* nav-bar items */
 .menu-items li {
-    font-family: 'Raleway', sans-serif;
     font-size: 1.3em;
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 10px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .menu-items a { 
@@ -80,11 +64,18 @@ ul {
 
 .intro {
     display: table; 
-    background: url('img/photo4.jpg') no-repeat fixed;
+    background: url('img/earthview.jpg') no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
-    /*margin-top: -50px;*/
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 5.5em;
+    font-weight: 100;
+    text-align: center;
+    margin: 10% auto;
 }
 
 .summary {
@@ -95,7 +86,7 @@ ul {
     margin: 0 auto;
 }
 
-.summary > h2 {
+.summary h2 {
     font-weight: 100;
     font-size: 3em;
     text-align: center;
@@ -114,7 +105,7 @@ ul {
     width: 35%;
 }
 
-.summary-left > p {
+.summary-left p {
     text-transform: none;
     display: table-cell;
     vertical-align: middle;
@@ -132,14 +123,14 @@ ul {
 
 .contact {
     display: table; 
-    background: url('img/photo14.jpg') no-repeat fixed;
+    background: url('img/goldengate.jpg') no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
     text-align: center;
 }
 
-.contact > h2 {
+.contact h2 {
     margin-top: 80px;
     text-transform: uppercase;
     font-size: 3em;
@@ -148,26 +139,28 @@ ul {
 }
 
 .contact-img {
+    margin: 20px;
     padding: 20px;
     height: 90px;
     width: 90px;
+    border-radius: 10px;
+}
+
+.contact-img:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Remove blue and purple link underline */
+a:-webkit-any-link{
+    text-decoration:none;
 }
 
 a:hover {
     text-decoration: none;
 }
 
-.contact-info > a:visited {
-    text-decoration: none;
-    text-align: center;
-}
-
 a:focus { 
     text-decoration: none; 
-}
-
-a:-webkit-any-link{
-    text-decoration:none;
 }
 
 
