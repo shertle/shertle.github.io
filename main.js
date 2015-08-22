@@ -22,10 +22,10 @@ $(document).ready(function() {
         var scroll = $(window).scrollTop();
 
         if (scroll >= 50 && scroll <= 1300) {
-            $("nav").addClass("navOpac");
+            $("nav").addClass("nav-opac");
         } 
         else {
-            $("nav").removeClass("navOpac");
+            $("nav").removeClass("nav-opac");
         }
     });
 });
