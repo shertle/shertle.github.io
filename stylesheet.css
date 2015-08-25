@@ -145,6 +145,7 @@ h1 {
     height: 90px;
     width: 90px;
     border-radius: 10px;
+    max-width: 100%
 }
 
 .contact-img:hover {
