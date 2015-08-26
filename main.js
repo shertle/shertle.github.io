@@ -13,7 +13,7 @@ window.onload = function() {
 };
 */
 
-
+// Apply JS only after HTML finishes loading
 $(document).ready(function() {
     //console.log("works woohoo!");
 
