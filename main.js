@@ -21,7 +21,7 @@ $(document).ready(function() {
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
 
-        if (scroll >= 50 && scroll <= 1300) {
+        if (scroll >= 50 && scroll <= 1200) {
             $("nav").addClass("nav-opac");
         } 
         else {
