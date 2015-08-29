@@ -28,4 +28,7 @@ $(document).ready(function() {
             $("nav").removeClass("nav-opac");
         }
     });
+
+    // Enable smooth scroll from nav-bar links
+    $('a').smoothScroll();
 });
