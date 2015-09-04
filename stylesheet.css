@@ -97,39 +97,47 @@ h1 {
     text-align: center;
 }
 
-.summary-left {
-    display: inline-block;
-    vertical-align: top;
-    height: 40%;
-    width: 35%;
-}
-
-.summary-right {
-    display: inline-block;
-    height: 40%;
-    width: 35%;
-}
-
-.summary-left p {
-    text-transform: none;
-    display: table-cell;
-    vertical-align: middle;
-    margin: auto auto;
-    font-size: 1.25em;
-    width: 400px;
+.summary-content {
     height: 400px;
+}
+
+#s1 .summary-content .summary-left {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    vertical-align: top;
+}
+
+#s1 .summary-content .summary-right {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+}
+
+#s1 .summary-left p {
+    padding-top: 25%;
+    display: inline-block;
+    text-transform: none;
+    font-size: 1.25em;
+    text-align: center;
+    vertical-align: middle;
+
+    /* Remove user agent margins */
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
 }
 
 #profile-pic {
     display: inline-block;
-    max-width: 400px;
     max-height: 400px;
     max-width: 100%
 }
 
 .contact {
     display: table; 
-    background: url('img/goldengate.jpg') no-repeat fixed;
+    background: url('img/sfskyline.jpg') no-repeat fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -142,6 +150,13 @@ h1 {
     font-size: 3em;
     font-weight: 200;
     
+}
+
+.contact-info {
+    position: absolute;
+    top: 265%;
+    width: 100%;
+    text-align: center;
 }
 
 .contact-img {
