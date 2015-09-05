@@ -193,7 +193,7 @@ a:focus {
     text-decoration: none; 
 }
 
-@media screen and (max-width: 950px) {
+@media all and (max-width: 950px) {
 
     .summary h2 {
         margin-bottom: 5%;
@@ -207,14 +207,14 @@ a:focus {
         margin-left: 2%;
     }
 }
-@media screen and (max-width: 850px) {
+@media all and (max-width: 850px) {
     
     h1 {
         font-size: 4.7em;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
     
     .summary {
         height: 120%;
@@ -256,7 +256,7 @@ a:focus {
 }
 
 
-@media screen and (max-width: 650px) {
+@media all and (max-width: 650px) {
 
     h1 {
         font-size: 4em;
@@ -271,6 +271,26 @@ a:focus {
 
     #s1 .summary-left p  {
         width: 75%;
+    }
+}
+
+@media all and (max-width: 550px) {
+
+    #s1 .summary-content .summary-left {
+        height: 35%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #s1 .summary-left p  {
+        width: 80%;
+    }
+
+    .contact-img {
+        height: 85px;
+        width: 85px;
+        margin: 10px;
+        padding: 10px;
     }
 }
 
