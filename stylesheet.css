@@ -66,7 +66,7 @@ html, body {
     width: 100%;
     height: 100%;
     display: table; 
-    background: url('img/earthview.jpg') no-repeat fixed;
+    background: url('img/earthview.jpg') no-repeat scroll;
     background-position: center;
     background-size: cover;
 }
@@ -143,7 +143,7 @@ h1 {
 
 .contact {
     display: table; 
-    background: url('img/sfskyline.jpg') no-repeat fixed;
+    background: url('img/sfskyline.jpg') no-repeat scroll;
     background-position: center;
     float: right;
     background-size: cover;
@@ -153,7 +153,7 @@ h1 {
 }
 
 .contact h2 {
-    margin-top: 80px;
+    margin-top: 70px;
     text-transform: uppercase;
     font-size: 3em;
     font-weight: 200;
@@ -310,9 +310,11 @@ a:focus {
 
 @media all and (max-width: 450px) {
 
+    /*
     .intro {
-        background-size: auto 100%;
+        background-size: cover;
     }
+    */
 
     h1 {
         font-size: 3em;
@@ -326,6 +328,12 @@ a:focus {
     #s1 .summary-left p  {
         width: 90%;
     }
+
+    /*
+    .contact {
+        background-size: cover;
+    }
+    */
 
     .contact-img {
         margin: 4%;
