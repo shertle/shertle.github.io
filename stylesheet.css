@@ -309,4 +309,26 @@ a:focus {
     }
 }
 
+@media all and (max-width: 450px) {
+
+    h1 {
+        font-size: 3em;
+        margin-top: 30%;
+    }
+
+    #s1 .summary-content .summary-left {
+        height: 40%;
+    }
+
+    #s1 .summary-left p  {
+        width: 90%;
+    }
+
+    .contact-img {
+        margin: 4%;
+        height: 75px;
+        width: 75px;
+    }
+}
+
 
