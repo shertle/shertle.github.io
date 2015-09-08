@@ -68,7 +68,7 @@ var breakpointNavBarOpacity = function (screenSizeBreakpoint, mobileLayout) {
   // Map the screen height break point to the required scroll distance
   var screenHeightToScrollDistance = {
     500: 1100,
-    600: 1150,
+    600: 1100,
     700: 1350,
     800: 1550
   }
