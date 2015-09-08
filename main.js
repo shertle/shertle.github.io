@@ -42,7 +42,7 @@ var navBarScrollOpacity = function() {
   }
   // Desktop layout
   else {
-    var scroll = $(window).scrollTop();
+
     // Smaller Desktop layout
     if ($(window).width() < 800) {
       breakpointNavBarOpacity(800, false);
@@ -68,7 +68,7 @@ var breakpointNavBarOpacity = function (screenSizeBreakpoint, mobileLayout) {
   // Map the screen height break point to the required scroll distance
   var screenHeightToScrollDistance = {
     500: 1100,
-    600: 1200,
+    600: 1150,
     700: 1350,
     800: 1550
   }
