@@ -10,6 +10,9 @@
 $(document).ready(function() {
   //console.log("works woohoo!");
 
+  // Initially hide the opaque nav background
+  $(".nav-background").hide();
+
   // Darken Nav Bar after scrolling down
   $(window).scroll(navBarScrollOpacity);
 
@@ -76,7 +79,7 @@ var breakpointNavBarOpacity = function (screenSizeBreakpoint, mobileLayout) {
   // Map the screen width break point to the required scroll distance
   var screenWidthToScrollDistance = {
     800: 1300,
-    1500: 1200
+    1500: 1225
   }
 
   var scrollDistance = screenWidthToScrollDistance[screenSizeBreakpoint];
@@ -88,11 +91,12 @@ var breakpointNavBarOpacity = function (screenSizeBreakpoint, mobileLayout) {
   // Darken Nav Bar when scrolled past a certain point
   if ($(window).width() < screenSizeBreakpoint) {
     if (scroll >= 50 && scroll <= scrollDistance) {
-      $("nav").addClass("nav-opac");
+      $(".nav-background").fadeIn(300);
     } 
     else {
-      $("nav").removeClass("nav-opac");
+      $(".nav-background").fadeOut(300);
     }
   }
 
 }
+
