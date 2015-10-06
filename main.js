@@ -3,7 +3,7 @@
   Why not just go here:
   https://github.com/shertle
 
-  Your welcome.
+  You're welcome.
 */
 
 // Apply JS only after HTML finishes loading
